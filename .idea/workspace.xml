@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1cf40c1-9816-49c5-9a2f-20aa368698e5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.sh" />
+    </list>
+    <ignored path=".idea/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>github.com/nowait/</find>
+      <find>v2</find>
+      <find>imageuuid</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>github.com/nowait-tools/</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cmd2/service.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/cmd/environment.go" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/rancher/client_test.go" />
+        <option value="$PROJECT_DIR$/vendor/vendor.json" />
+        <option value="$PROJECT_DIR$/rancher/config/config.go" />
+        <option value="$PROJECT_DIR$/cmd/service.go" />
+        <option value="$PROJECT_DIR$/rancher/client.go" />
+        <option value="$PROJECT_DIR$/build.sh" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rancher-cli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rancher-cli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="GO_FMT" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Application.upgrade finish">
+    <configuration default="false" name="TestRegistryValidatorValidate in registry_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="rancher-cli" />
+      <working_directory value="$PROJECT_DIR$/rancher/config" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/nowait-tools/rancher-cli/rancher/config" />
+      <pattern value="^TestRegistryValidatorValidate$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="rancher-cli" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <filePath value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <package value="github.com/nowait-tools/rancher-cli" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="rancher-cli" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="rancher-cli" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="github.com/nowait-tools/rancher-cli" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="upgrade" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="rancher-cli" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <parameters value="service upgrade --service mates-and-dates-ui-dev --runtime-tag &quot;mates-dates-fe:0.0.10&quot; --repository &quot;614339721584.dkr.ecr.ap-southeast-2.amazonaws.com&quot; --wait" />
+      <envs>
+        <env name="DOCKER_REGISTRY_URL" value="https://614339721584.dkr.ecr.ap-southeast-2.amazonaws.com" />
+        <env name="CATTLE_URL" value="https://ops.synergia.nz" />
+        <env name="CATTLE_ACCESS_KEY" value="33F22B11041FEE408402" />
+        <env name="DOCKER_REGISTRY_USERNAME" value="AWS" />
+        <env name="CATTLE_SECRET_KEY" value="mrNZVobD6u5jsYQAWewGtkkQuwoQgqHf1GMZdSB5" />
+        <env name="DOCKER_REGISTRY_PASSWORD" value="eyJwYXlsb2FkIjoiQjMyUGJZa0grZnczS2lUZFl3NmRQbTd4VkxlQjlqUWR3MFJTR0E5bEd0ZEhFMUZ3ejl6eTJpL0dTclpHa3NoemN0S09hYTJZUmd4OVZ5MlhMTTdKNE1wTllJK3dWYnc3MFRIVFY4dlJudVI2YzY4VXlYeVN3MHVQaDB5ekJQQUZnZ1JFMERLYUFlbzhKMEFqbE1vNmFXUjk0T1NtbGNHMUg3YzJka01ER0xYSkJPSTBiaWNUOTFHQkQxaEdPWGJURXVPU3Vra1ZZTWI2cndnenBwb0cvY2RKN0JJVnk4MUgra2FKWTF0YjZjaVdjM3Q0KzBUQk9IbEJ1QlBCMXR1MXpONkE4Yk5RRExValViZ0k0RUsvZzI2UC95cU0rNVRyK2hyUy8xYzBsQTJMZStCTkluRjNYTWdCNjRXVWtvM09jeGNoeSswL1QrL1FFVUhjZXUxQW9YSjVpb3NVdm0yWlptSEx5UG5JaHU3VFNESEg4azlHZndLVi9hdGIyV0xLNWMyS1dRV2FRbVRCTXkySGJmL2tjYWJsRnkvNEdPZEhSQXAyZld0Ry9QVzg5SWlRUlRCUXFQVlAyN3ZGQU9hbTYrSndqTE1pRjg5ZkRVZXgxdGpWdWRPRWdyN2N0TUNROGQ5SnhHRG1nQ1l4aHFrd2lJaXZzQWY3ZmQ3TmRXRTJ5RzNOUEU5OEJVMGltUm9TVkJIemxMVUFGYnJDQjA3TmZaOG5YNm9FV2psdHpkdVZGYnk2UThabWcvN25Sa01KNVRtaHNqdURPUHFDcUFudTZzN1lZcmNiRkpFeVkrenN4SHhyLy92aTA0aEpqRVB5MHdpODYwU2oxYy83VXM0RWVOTHU3UXZnU08wbnFUeEVjUnZ5VWtjeitvK1loMGxlYm82NStwZTBqUHl6K1FlRlF0THV3Y3lRaTlKbHM0ZDIxR2d0TDJMV1J1R1RpVXc4Mk1QQVZnWDlLdDFoaXBDQWprSkNnSzNSaFZieFlKcDdhS1lIcy9Ca3BQem11cDBrZ2QrM2F0Njd6TFFVUWg1dUxTd1o3d213eG9jb3REM0h3RmUxRXJwRjJpWGFhbnVJZU9HSWZ4RW9zb3VnZi9qaVlmVUxmZGdScm5TTDV0Y2VUSy9jSkNWZFoybUVCMldSSHhPNGx5RDNTOFlLeDZoeWZZUlZmc2pXeGdZWHJTZHAyZGx1UjlnTW1wVThoMzlQVm9JbUtaYVJTZVZPNCt0NkFKZG42VktVRU50OFJDdEZiOGkvVXQxMFRuNWNyak80UldJTE1meHpiaUpGeXJnL1FzVEZCUzc4SS9ZeTFEQ1pPczBkMzdjTmUwODZucVZ4MFlGQXlMWUF1SVJFemNuRm42cUpPR2tDbWJYR21ocjN5UW9oWnFPU29kaWgwaWlNQ2NZY3AxNUFRSWN2ZmFZQkFnRDBCTmNSbXV2dzdCdk8vczhLRUIvQzVxS2xTYTBEMVdHUjBodjg3VmwyMVE9PSIsImRhdGFrZXkiOiJBUUVCQUhoTHlqejdQSkVQbVlicUg2QTZmL3dXTnp5ejVCS2EzN0JuQlBzQXl1RjFLUUFBQUg0d2ZBWUpLb1pJaHZjTkFRY0dvRzh3YlFJQkFEQm9CZ2txaGtpRzl3MEJCd0V3SGdZSllJWklBV1VEQkFFdU1CRUVEQWZQRVRDYlJkTkthVTlxZXdJQkVJQTd2RmczTWRLektCZ1dEZUpuWmR0Zk5KQVZOaHowWlk0Vk9oOFgwSGdDdWRYWEtWdEswTSsxQXVxYmxXaFE4dG5idkRMaWwyc1ZCTnY5elNNPSIsInZlcnNpb24iOiIxIiwidHlwZSI6IkRBVEFfS0VZIn0=" />
+      </envs>
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <kind value="FILE" />
+      <package value="github.com/nowait-tools/rancher-cli" />
+      <method />
+    </configuration>
+    <configuration default="false" name="upgrade finish" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="rancher-cli" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <parameters value="service upgrade-finish --service mates-and-dates-ui-dev" />
+      <envs>
+        <env name="DOCKER_REGISTRY_URL" value="https://614339721584.dkr.ecr.ap-southeast-2.amazonaws.com" />
+        <env name="CATTLE_URL" value="https://ops.synergia.nz" />
+        <env name="CATTLE_ACCESS_KEY" value="33F22B11041FEE408402" />
+        <env name="DOCKER_REGISTRY_USERNAME" value="AWS" />
+        <env name="CATTLE_SECRET_KEY" value="mrNZVobD6u5jsYQAWewGtkkQuwoQgqHf1GMZdSB5" />
+        <env name="DOCKER_REGISTRY_PASSWORD" value="eyJwYXlsb2FkIjoiQjMyUGJZa0grZnczS2lUZFl3NmRQbTd4VkxlQjlqUWR3MFJTR0E5bEd0ZEhFMUZ3ejl6eTJpL0dTclpHa3NoemN0S09hYTJZUmd4OVZ5MlhMTTdKNE1wTllJK3dWYnc3MFRIVFY4dlJudVI2YzY4VXlYeVN3MHVQaDB5ekJQQUZnZ1JFMERLYUFlbzhKMEFqbE1vNmFXUjk0T1NtbGNHMUg3YzJka01ER0xYSkJPSTBiaWNUOTFHQkQxaEdPWGJURXVPU3Vra1ZZTWI2cndnenBwb0cvY2RKN0JJVnk4MUgra2FKWTF0YjZjaVdjM3Q0KzBUQk9IbEJ1QlBCMXR1MXpONkE4Yk5RRExValViZ0k0RUsvZzI2UC95cU0rNVRyK2hyUy8xYzBsQTJMZStCTkluRjNYTWdCNjRXVWtvM09jeGNoeSswL1QrL1FFVUhjZXUxQW9YSjVpb3NVdm0yWlptSEx5UG5JaHU3VFNESEg4azlHZndLVi9hdGIyV0xLNWMyS1dRV2FRbVRCTXkySGJmL2tjYWJsRnkvNEdPZEhSQXAyZld0Ry9QVzg5SWlRUlRCUXFQVlAyN3ZGQU9hbTYrSndqTE1pRjg5ZkRVZXgxdGpWdWRPRWdyN2N0TUNROGQ5SnhHRG1nQ1l4aHFrd2lJaXZzQWY3ZmQ3TmRXRTJ5RzNOUEU5OEJVMGltUm9TVkJIemxMVUFGYnJDQjA3TmZaOG5YNm9FV2psdHpkdVZGYnk2UThabWcvN25Sa01KNVRtaHNqdURPUHFDcUFudTZzN1lZcmNiRkpFeVkrenN4SHhyLy92aTA0aEpqRVB5MHdpODYwU2oxYy83VXM0RWVOTHU3UXZnU08wbnFUeEVjUnZ5VWtjeitvK1loMGxlYm82NStwZTBqUHl6K1FlRlF0THV3Y3lRaTlKbHM0ZDIxR2d0TDJMV1J1R1RpVXc4Mk1QQVZnWDlLdDFoaXBDQWprSkNnSzNSaFZieFlKcDdhS1lIcy9Ca3BQem11cDBrZ2QrM2F0Njd6TFFVUWg1dUxTd1o3d213eG9jb3REM0h3RmUxRXJwRjJpWGFhbnVJZU9HSWZ4RW9zb3VnZi9qaVlmVUxmZGdScm5TTDV0Y2VUSy9jSkNWZFoybUVCMldSSHhPNGx5RDNTOFlLeDZoeWZZUlZmc2pXeGdZWHJTZHAyZGx1UjlnTW1wVThoMzlQVm9JbUtaYVJTZVZPNCt0NkFKZG42VktVRU50OFJDdEZiOGkvVXQxMFRuNWNyak80UldJTE1meHpiaUpGeXJnL1FzVEZCUzc4SS9ZeTFEQ1pPczBkMzdjTmUwODZucVZ4MFlGQXlMWUF1SVJFemNuRm42cUpPR2tDbWJYR21ocjN5UW9oWnFPU29kaWgwaWlNQ2NZY3AxNUFRSWN2ZmFZQkFnRDBCTmNSbXV2dzdCdk8vczhLRUIvQzVxS2xTYTBEMVdHUjBodjg3VmwyMVE9PSIsImRhdGFrZXkiOiJBUUVCQUhoTHlqejdQSkVQbVlicUg2QTZmL3dXTnp5ejVCS2EzN0JuQlBzQXl1RjFLUUFBQUg0d2ZBWUpLb1pJaHZjTkFRY0dvRzh3YlFJQkFEQm9CZ2txaGtpRzl3MEJCd0V3SGdZSllJWklBV1VEQkFFdU1CRUVEQWZQRVRDYlJkTkthVTlxZXdJQkVJQTd2RmczTWRLektCZ1dEZUpuWmR0Zk5KQVZOaHowWlk0Vk9oOFgwSGdDdWRYWEtWdEswTSsxQXVxYmxXaFE4dG5idkRMaWwyc1ZCTnY5elNNPSIsInZlcnNpb24iOiIxIiwidHlwZSI6IkRBVEFfS0VZIn0=" />
+      </envs>
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <kind value="FILE" />
+      <package value="github.com/nowait-tools/rancher-cli" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Go Application.upgrade" />
+      <item index="1" class="java.lang.String" itemvalue="Go Application.upgrade finish" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestRegistryValidatorValidate in registry_test.go" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestRegistryValidatorValidate in registry_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestRegistryValidatorValidate_in_registry_test_go - 2017.07.25 at 16h 31m 36s.xml">
+      <configuration name="TestRegistryValidatorValidate in registry_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27414772" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30397728" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3721591" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="imports: FIX import paths now point to 'nowait-tools'" />
+    <MESSAGE value="upgrade: ADD ability to specify a repository for Rancher where it expects a default repo." />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade: ADD ability to specify a repository for Rancher where it expects a default repo." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="26" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cmd/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/service.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="96" column="14" lean-forward="false" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
+          <folding>
+            <marker date="1500972422000" expanded="true" signature="2211:2484" ph="{...}" />
+            <marker date="1500972422000" expanded="true" signature="2526:2579" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/rancher/go-rancher/client/generated_launch_config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="4" lean-forward="false" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/environment.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rancher/config/registry.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rancher/config/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rancher/config/env.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/heroku/docker-registry-client/registry/registry.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="91" column="10" lean-forward="true" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rancher/config/registry_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rancher/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4800">
+          <caret line="320" column="10" lean-forward="false" selection-start-line="320" selection-start-column="10" selection-end-line="320" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rancher/client_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/vendor.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2130">
+          <caret line="142" column="17" lean-forward="false" selection-start-line="142" selection-start-column="17" selection-end-line="142" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/urfave/cli/command.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="71" column="17" lean-forward="false" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/heroku/docker-registry-client/registry/registry.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="91" column="10" lean-forward="false" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rancher/config/env.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/rancher/go-rancher/client/generated_launch_config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="77" column="4" lean-forward="false" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rancher/config/registry_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="567" column="19" lean-forward="true" selection-start-line="567" selection-start-column="19" selection-end-line="567" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rancher/config/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/urfave/cli/context.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="227" column="19" lean-forward="false" selection-start-line="227" selection-start-column="5" selection-end-line="227" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/urfave/cli/app.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1536">
+          <caret line="177" column="19" lean-forward="true" selection-start-line="177" selection-start-column="19" selection-end-line="177" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/environment.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rancher/config/registry.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="71" column="69" lean-forward="false" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/service.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="108" column="31" lean-forward="true" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="31" />
+          <folding>
+            <marker date="1500972422000" expanded="true" signature="2211:2484" ph="{...}" />
+            <marker date="1500972422000" expanded="true" signature="2526:2579" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/rancher/go-rancher/client/generated_service.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="112" column="4" lean-forward="false" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rancher/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="306" column="15" lean-forward="true" selection-start-line="306" selection-start-column="15" selection-end-line="306" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
