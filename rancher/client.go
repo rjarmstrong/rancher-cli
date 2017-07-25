@@ -12,7 +12,7 @@ import (
 	"time"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/nowait/rancher-cli/rancher/config"
+	"github.com/nowait-tools/rancher-cli/rancher/config"
 	"github.com/pkg/errors"
 	"github.com/rancher/go-rancher/client"
 )
