@@ -37,6 +37,10 @@ func ServiceCommand() cli.Command {
 					cli.StringFlag{
 						Name: "code-tag",
 					},
+					cli.StringFlag{
+						Name:  "repository",
+						Usage: "Specify the repository here if it is a non docker hub repo",
+					},
 					cli.Int64Flag{
 						Name:  "interval",
 						Usage: "Interval between starting new containers and stopping old ones",
@@ -95,6 +99,7 @@ func UpgradeAction(c *cli.Context) error {
 		Service:     c.String("service"),
 		CodeTag:     c.String("code-tag"),
 		RuntimeTag:  c.String("runtime-tag"),
+		Repository:  c.String("repository"),
 		Wait:        c.Bool("wait"),
 	}
 	if name := opts.ServiceLike; name != "" {
