@@ -109,7 +109,35 @@ func UpgradeAction(c *cli.Context) error {
 		return client.UpgradeServiceWithNameLike(opts)
 	}
 
+	if opts.Service != "" {
+		WaitAndFinish(opts.Service, client)
+	}
 	_, err = client.UpgradeService(opts)
 
+	if err != nil {
+		return err
+	}
+	if opts.Wait && opts.Service != "" {
+		WaitAndFinish(opts.Service, client)
+	}
+	return err
+}
+
+// WaitAndFinish (requiredState active|upgraded)
+func WaitAndFinish(service string, client *rancher.Client) error {
+	for i := 0; i < 20; i++ {
+		svc, err := client.ServiceByName(service)
+		if err != nil {
+			return err
+		}
+		log.Printf("%s state: %s\n", service, svc.State)
+		if svc.State == "active" || svc.State == "upgraded" {
+			// attempting to do an upgrade just after this will fail, however, its simple just to rerun build.
+			break
+		}
+		time.Sleep(3 * time.Second)
+		i++
+	}
+	_, err := client.FinishServiceUpgrade(service)
 	return err
 }
