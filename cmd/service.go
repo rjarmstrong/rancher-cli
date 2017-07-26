@@ -6,6 +6,7 @@ import (
 	"github.com/nowait-tools/rancher-cli/rancher"
 	"github.com/nowait-tools/rancher-cli/rancher/config"
 	"github.com/urfave/cli"
+	"log"
 )
 
 func ServiceCommand() cli.Command {
@@ -61,6 +62,7 @@ func ServiceCommand() cli.Command {
 					},
 				},
 				Action: func(c *cli.Context) error {
+					log.Println("upgrade-finish")
 					client, err := rancher.NewClient(cattleUrl, cattleAccessKey, cattleSecret, "")
 
 					if err != nil {
@@ -75,7 +77,7 @@ func ServiceCommand() cli.Command {
 }
 
 func UpgradeAction(c *cli.Context) error {
-
+	log.Println("upgrade")
 	envFile := c.String("env-file")
 	env := c.StringSlice("env")
 
@@ -83,6 +85,7 @@ func UpgradeAction(c *cli.Context) error {
 		return err
 	}
 
+	log.Println("cattleUrl:", cattleUrl)
 	client, err := rancher.NewClient(cattleUrl, cattleAccessKey, cattleSecret, envFile)
 	if err != nil {
 		return err
